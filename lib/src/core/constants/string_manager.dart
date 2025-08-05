@@ -10,6 +10,10 @@ class StringManager {
   static const String login = "LOGIN";
   static const String requiredField = "The field is required.";
   static const String hello = "Hello";
-
+  static const String someThingWrong = "Something went wrong, please try again";
+  static const String someWrong = "Something went wrong !!";
+  static const String refresh = "Refresh";
+  static const String noDataYet = 'No found data yet !!';
+  static const String message = 'Please try again later';
 
 }

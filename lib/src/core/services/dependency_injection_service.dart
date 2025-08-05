@@ -52,7 +52,8 @@ class DependencyInjectionService {
     di.registerLazySingleton(() => LoginUseCase(di()));
 
     // bloc
-    di.registerLazySingleton(() => HomeBloc(di()));
+    di.registerFactory(() => HomeBloc(di()));
+
     di.registerFactory<LoginBloc>(
             () => LoginBloc(loginUC: di()));
 
