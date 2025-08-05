@@ -15,5 +15,10 @@ class StringManager {
   static const String refresh = "Refresh";
   static const String noDataYet = 'No found data yet !!';
   static const String message = 'Please try again later';
+  static const String details = 'Details';
+  static const String title = 'Title';
+  static const String body = 'body';
+
+
 
 }
